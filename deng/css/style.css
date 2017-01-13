@@ -218,15 +218,6 @@ th a:visited{
 	left: -200px;
 }
 
-#phonebarheader{
-	position: fixed;
-	top: 0;
-	width: 200px;
-	text-align: center;
-	color: white;
-	height: 50px;
-	z-index: 100;
-}
 #headerh2{
 	margin: 13px;
 }
@@ -265,11 +256,10 @@ th a:visited{
 
 #phonebar table{
 	color: white;
-	margin-top: 50px;
 	width: 100%;
 }
 
-#phonebar th{
+#phonebarth{
 	background-color: rgb(256,156,0);
 }
 
