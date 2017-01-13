@@ -3,6 +3,8 @@ function judge(a){
 	return result;
 }
 
+var screenwide=screen.width;
+
 function info(){
 	var result=navigator.userAgent;
 	return result;
@@ -11,7 +13,7 @@ function info(){
 //Device Serious
 
 function isPC(){
-	if(judge("Mobile")!=-1 || judge("Android")!=-1 || judge("Symbian")!=-1){
+	if(judge("Mobile")!=-1 || judge("Android")!=-1 || judge("Symbian")!=-1||screenwide<800){
 		return false;
 	}
 	else{
