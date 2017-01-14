@@ -198,6 +198,11 @@ th a:visited{
 	}
 }
 
+@media(min-width: 560px){
+	#phonetitle{
+		right: 25%;
+	}
+}
 #phonebarbackground{
 	position: fixed;
 	background-color: rgba(0,0,0,0.7);
@@ -216,6 +221,7 @@ th a:visited{
 	height: 100%;
 	transition: 0.5s;
 	left: -200px;
+	overflow: auto;
 }
 
 #headerh2{
