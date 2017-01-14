@@ -151,8 +151,6 @@ $(document).ready(function(e) {
 <script type="text/javascript">
 	var wide=screen.width;
 	if(isPC()==true || isiPad()==true || wide>=768){
-		var element=document.getElementById("bar2");
-			element.style.display="block";
 	window.onscroll=function(){
 	var scrolltop=$(document).scrollTop();
 	var element=document.getElementById("bar2");
@@ -169,34 +167,4 @@ $(document).ready(function(e) {
 }
 }
 </script>
-<script type="text/javascript">
-window.onresize=function(){
-	var wide=screen.width;
-	if(isPC()==true || isiPad()==true || wide>=768){
-		var element=document.getElementById("bar2");
-	element.style.display="block";
-	window.onscroll=function(){
-	var scrolltop=$(document).scrollTop();
-	var element=document.getElementById("bar2");
-	if(scrolltop==0){
-		element.style.top="100px";
-		element.style.marginLeft="5%";
-		element.style.width="90%";
-	}
-	else{
-		element.style.top="0";
-		element.style.marginLeft="0";
-		element.style.width="100%";
-	}
-}
-
-}
-else{
-	var element=document.getElementById("bar2");
-	element.style.display="none";
-}
-}
-
-
-	</script>
 </html>
