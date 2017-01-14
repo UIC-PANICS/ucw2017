@@ -1,4 +1,4 @@
-
+font-face
 .tim-container{
     background: #ffffff;
 
@@ -416,6 +416,6 @@
     font-size: 48px;
     color: #EEEEEE;
     font-family:"Source Han Sans CN","Pingfang","MicrosoftJhengHei",STHeiti,MingLiu;
-    font-family:"product sans","Helvetica Neue",Arial,Sans-Serif;
+    font-family:"product_sansregular","Helvetica Neue",Arial,Sans-Serif;
     line-height: 52px;
 }
