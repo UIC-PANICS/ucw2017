@@ -135,7 +135,8 @@
 <script>
 $(document).ready(function(e) {
     var unslider04 = $('#b04').unslider({
-        dots: true
+        dots: true,
+        fluid: true
     }),
     data04 = unslider04.data('unslider');
      
@@ -144,6 +145,8 @@ $(document).ready(function(e) {
         data04[fn]();
     });
 });
+
+ 
 </script>
 <script type="text/javascript">
 if(isPC()==true || isiPad()==true){
