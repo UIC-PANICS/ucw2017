@@ -10,7 +10,36 @@
 <script src="js/unslider.min.js"></script>
 <script src="js/phonebar.js"></script>
 <script src="js/device.js"></script>
+<script type="text/javascript">
+	function hearth(){
+		var element1=document.getElementById("uploadcard").style;
+		var element2=document.getElementById("watchcard").style;
+		var element3=document.getElementById("hearthstone").style;
+        if(element1.display=="none"){
+        	element1.display="block";
+        	element2.display="block";
+        	element3.display="block";
+        }
+        else{
+        	element1.display="none";
+        	element2.display="none";
+        	element3.display="none";
+        }
+	}
 
+	function showdiv(){
+		var element1=document.getElementById("spanul").style;
+		var element2=document.getElementById("bar2").style;
+		element1.display="block";
+		element2.height="91px";
+	}
+	function hidediv(){
+		var element1=document.getElementById("spanul").style;
+		var element2=document.getElementById("bar2").style;
+		element1.display="none";
+		element2.height="50px";
+	}
+</script>
 </head>
 
 <body>
@@ -31,19 +60,24 @@
 
 <div id="bar2">
 <table cellspacing="0">
-	<tr>
+	<tr style="height: 50px">
 		<th><a href="#b04">主页</a></th>
-		<th><a href="hearthstone/index.html">查看炉石卡组</a></th>
-		<th><a href="hearthstone/preupload.html">上传炉石卡组</a></th>
 		<th><a href="">英雄联盟</a></th>
 		<th><a href="">守望先锋</a></th>
-		<th><a href="">炉石传说</a></th>
+		<th onmouseover="showdiv()" onmouseout="hidediv()"><a href="">炉石传说</a></th>
 		<th><a href="">王者荣耀</a></th>
 		<th><a href="">皇室战争</a></th>
 		<th><a href="">欢乐斗地主</a></th>
 		
 	</tr>
+	<tr onmouseover="showdiv()" onmouseout="hidediv()">
+		<td colspan="7"><ul id="spanul">
+	<a href="hearthstone/index.html"><li  id="spanli">查看卡组</li></a>
+	<a href="hearthstone/preupload.html"><li  id="spanli">上传卡组</li></a>
+</ul></td>
+	</tr>
 </table>
+
 </div>
 
 <!--PC fixed element end-->
@@ -58,11 +92,13 @@
 <table cellpadding="18px">
 <tr><th><b>Menu</b></th></tr>
 	<tr><td><a href="#blank" onclick="hidephonebar()"><b>主页</b></a></td></tr>
-	<tr><td><a href="hearthstone/index.html" onclick="hidephonebar()"><b>查看炉石卡组</b></a></td></tr>
-	<tr><td><a href="hearthstone/preupload.html" onclick="hidephonebar()"><b>上传炉石卡组</b></a></td></tr>
+	
 	<tr><td><a href="" onclick="hidephonebar()"><b>英雄联盟</b></a></td></tr>
 	<tr><td><a href="" onclick="hidephonebar()"><b>守望先锋</b></a></td></tr>
-	<tr><td><a href="" onclick="hidephonebar()"><b>炉石传说</b></a></td></tr>
+	<tr><td onclick="hearth()" style="font-size: 18px"><b>炉石传说</b></td></tr>
+	<tr><td style="display: none;" id="hearthstone"><a href="" onclick="hidephonebar()"><b>炉石传说主页</b></a></td></tr>
+	<tr><td style="display: none;" id="watchcard"><a href="hearthstone/index.html" onclick="hidephonebar()"><b>查看炉石卡组</b></a></td></tr>
+	<tr><td style="display: none;" id="uploadcard"><a href="hearthstone/preupload.html" onclick="hidephonebar()"><b>上传炉石卡组</b></a></td></tr>
 	<tr><td><a href="" onclick="hidephonebar()"><b>王者荣耀</b></a></td></tr>
 	<tr><td><a href="" onclick="hidephonebar()"><b>皇室战争</b></a></td></tr>
 	<tr><td><a href="" onclick="hidephonebar()"><b>欢乐斗地主</b></a></td></tr>

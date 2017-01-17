@@ -124,7 +124,7 @@ ul,ol{ padding: 0;margin: 0}
 	width: 90%;
 	margin-left: 5%;
 	position: fixed;
-	height: 50px;
+	height:50px;
 	top: 100px;
 	z-index: 110;
 	transition: 0.1s;
@@ -296,4 +296,39 @@ th a:visited{
 #blank{
     height: 50px;
     width: 100%;
+}
+
+#watchcard, #uploadcard, #hearthstone{
+	border-bottom: 1px solid #666;
+}
+
+#spantr{
+	display: none;
+}
+
+#spanli{
+	list-style: none;
+	float: left;
+	padding-left: 5%;
+	height: 30px;
+	padding-right: 5%;
+	padding-top: 10px;
+}
+
+#spanul{
+    display: none;
+	margin-left: 30%
+}
+
+#spanul a:link{
+	color: white;
+	font-family: MicrosoftYaHei;
+}
+
+#spanul a:visited{
+	color: white;
+}
+
+#spanli:hover{
+	background-color: rgba(73,83,108,0.8);
 }
