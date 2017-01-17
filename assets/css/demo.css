@@ -414,8 +414,17 @@ font-face
 
 .words{
     font-size: 48px;
-    color: #EEEEEE;
+    color: rgba(238,238,238,0.8);
     font-family:"Source Han Sans CN","Pingfang","MicrosoftJhengHei",STHeiti,MingLiu;
     font-family:"product_sansregular","Helvetica Neue",Arial,Sans-Serif;
     line-height: 52px;
+}
+
+.grayfooter{
+    width: 100%;
+    height: 100px;
+    background-color: #000000;
+}
+.footerword{
+    color: #ffffff;
 }
