@@ -36,7 +36,22 @@ $txt1='<!DOCTYPE html>
 </div>';
 fwrite($myfile,$txt1);
 fclose($myfile);
-if ($img)
+ $a = 0;
+    foreach ($img['tmp_name'] as $value)
+    {
+        $filename = $img['name'][$a];
+        if ($value)
+        {
+            $sizeresult[$a]= $img["size"][$a]<=600000;
+            $typeresult[$a]= strpos($img["type"][$a],"mage");
+        }
+        $a++;
+    }
+if ($sizeresult[0]==1 && $typeresult[0]==1&&
+    $sizeresult[1]==1 && $typeresult[1]==1&&
+    $sizeresult[2]==1 && $typeresult[2]==1&&
+    $sizeresult[3]==1 && $typeresult[3]==1)
+
 {
     $dir = dirname($path2);
     $i = 0;
@@ -62,12 +77,26 @@ if ($img)
         }
         $i++;
     }
-}
-$myfile=fopen($path1,"a+");
+  $myfile=fopen($path1,"a+");
 $txt='</body>
 </html>';
 fwrite($myfile,$txt);
-fclose($myfile);
-header("Location: $path1");
-?>
+fclose($myfile); 
+}
+else{
+    echo '<!DOCTYPE html>
+<html>
+<head>
+    <title>错误</title>
+    <meta charset="utf-8">
+    <script type="text/javascript">
+        alert("文件超过限制或格式不正确");
+        window.location.href="preupload.html";
+    </script>
+</head>
+<body>
+
+</body>
+</html>';
+}
 ?>
