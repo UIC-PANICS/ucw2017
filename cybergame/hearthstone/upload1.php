@@ -42,7 +42,7 @@ fclose($myfile);
         $filename = $img['name'][$a];
         if ($value)
         {
-            $sizeresult[$a]= $img["size"][$a]<=600000;
+            $sizeresult[$a]= $img["size"][$a]<=500000;
             $typeresult[$a]= strpos($img["type"][$a],"mage");
         }
         $a++;
@@ -81,7 +81,8 @@ if ($sizeresult[0]==1 && $typeresult[0]==1&&
 $txt='</body>
 </html>';
 fwrite($myfile,$txt);
-fclose($myfile); 
+fclose($myfile);
+header("Location: $path1"); 
 }
 else{
     echo '<!DOCTYPE html>

@@ -55,6 +55,7 @@
 
 <!--main content-->
 <div id="upload">
+<p>每张图片大小不可超过400k</p>
 <form accept="" method="post" enctype="multipart/form-data" action="upload1.php">
 <input type="text" name="number" placeholder="请再次输入学号（十位数字）" style="height: 30px;width: 100%;" id="inputnum" oninput="changetext()" onpropertychange="changetext()"required>
 <p id="textchange"></p>
