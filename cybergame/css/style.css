@@ -214,6 +214,11 @@ th a:visited{
 		right: 25%;
 	}
 }
+@media(min-width: 768px){
+	#phonetitle{
+		right: 31%;
+	}
+}
 #phonebarbackground{
 	position: fixed;
 	background-color: rgba(0,0,0,0.7);
@@ -247,19 +252,19 @@ th a:visited{
 	text-decoration: none;
 }
 
-@media(max-width: 767px){
+@media(max-width: 1023px){
 	#bar2, .header{
 		display: none;
 	}
 }
 
-@media(max-width: 767px){
+@media(max-width: 1023px){
 	#phoneheader{
 		display: block;
 	}
 }
 
-@media(min-width: 767px){
+@media(min-width: 1024px){
 	#b04{
 		top: -50px;
 	}

@@ -2,11 +2,12 @@
 $stunum=$_POST['number'];
 $url="upload.php";
 $path="confirm.txt";
+$path1=$stunum."/index.html";
     $myfile=fopen($path,"w");
     $txt=$stunum;
     fwrite($myfile, $txt);
     fclose($myfile);
-if(is_dir($stunum)==false){
+if(is_dir($stunum)==false || is_file($path1)==false){
 	mkdir($stunum,0777);
 	header("Location: $url");
 	
@@ -34,3 +35,4 @@ else{
 }
 
  ?>
+

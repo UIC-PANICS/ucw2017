@@ -1,11 +1,6 @@
 <?php
 $path1=$_POST["number"]."/index.html";
 $path2=$_POST["number"];
-/*$myfile=fopen($path,'w');
-$content="yes";
-fwrite($myfile,$content);
-fclose($myfile);
-header("Location: $path");*/
 $img = $_FILES['img'];
 $myfile=fopen($path1,"w");
 $txt1='<!DOCTYPE html>
@@ -43,7 +38,6 @@ fwrite($myfile,$txt1);
 fclose($myfile);
 if ($img)
 {
-//文件存放目录，和本php文件同级
     $dir = dirname($path2);
     $i = 0;
     foreach ($img['tmp_name'] as $value)
@@ -53,7 +47,6 @@ if ($img)
         {
             $savepath=$path2."/".$filename;
             $state = move_uploaded_file($value, $savepath);
-//如果上传成功，预览
             if($state)
             {
                 $myfile=fopen($path1,"a+");
