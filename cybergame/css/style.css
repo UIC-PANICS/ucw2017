@@ -235,7 +235,7 @@ th a:visited{
 	width: 200px;
 	z-index: 300;
 	height: 100%;
-	transition: 0.4s;
+	transition: 0.3s ease-out;
 	left: -200px;
 	overflow: auto;
 }
@@ -306,7 +306,7 @@ th a:visited{
 	display: none;
 }
 
-#spanli{
+.spanli{
 	list-style: none;
 	float: left;
 	padding-left: 5%;
@@ -317,7 +317,7 @@ th a:visited{
 
 #spanul{
     display: none;
-	margin-left: 30%
+	margin-left: 30%;
 }
 
 #spanul a:link{
