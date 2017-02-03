@@ -1,5 +1,10 @@
 <?php 
 $stunum=$_POST["number"];
 $url="../".$stunum."/index.html";
-header("Location: $url");
+if(is_dir($stunum)==true){
+    header("Location: $url");
+}
+else{
+    header("Location: ../index.html");
+}
  ?>

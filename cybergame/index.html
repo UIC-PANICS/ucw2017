@@ -10,36 +10,7 @@
 <script src="js/unslider.min.js"></script>
 <script src="js/phonebar.js"></script>
 <script src="js/device.js"></script>
-<script type="text/javascript">
-	function hearth(){
-		var element1=document.getElementById("uploadcard").style;
-		var element2=document.getElementById("watchcard").style;
-		var element3=document.getElementById("hearthstone").style;
-        if(element1.display=="none"){
-        	element1.display="block";
-        	element2.display="block";
-        	element3.display="block";
-        }
-        else{
-        	element1.display="none";
-        	element2.display="none";
-        	element3.display="none";
-        }
-	}
-
-	function showdiv(){
-		var element1=document.getElementById("spanul").style;
-		var element2=document.getElementById("bar2").style;
-		element1.display="block";
-		element2.height="91px";
-	}
-	function hidediv(){
-		var element1=document.getElementById("spanul").style;
-		var element2=document.getElementById("bar2").style;
-		element1.display="none";
-		element2.height="50px";
-	}
-</script>
+	<script src="js/jquery.scrollto.js"></script>
 </head>
 
 <body>
@@ -60,7 +31,7 @@
 <div id="bar2">
 <table cellspacing="0">
 	<tr style="height: 50px">
-		<th><a href="#b04">主页</a></th>
+		<th onclick="scrollit(100);">主页</th>
 		<th><a href="">英雄联盟</a></th>
 		<th><a href="">守望先锋</a></th>
 		<th onmouseover="showdiv()" onmouseout="hidediv()"><a href="">炉石传说</a></th>
@@ -131,47 +102,49 @@
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<div id="testscroll">
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+</div>
+
 
 </body>
 <script>
