@@ -28,36 +28,16 @@ function hearth(){
     }
 }
 
-function showdiv(){
-    var element1=document.getElementById("spanul").style;
-    var element2=document.getElementById("bar2").style;
+function showdetailbox(boxname) {
+    var element1=document.getElementById("pcbackground").style;
+    var element2=document.getElementById(boxname).style;
     element1.display="block";
-    element2.height="91px";
+    element2.display="block";
 }
-function hidediv(){
-    var element1=document.getElementById("spanul").style;
-    var element2=document.getElementById("bar2").style;
+
+function hidedetailbox(boxname) {
+    var element1=document.getElementById("pcbackground").style;
+    var element2=document.getElementById(boxname).style;
     element1.display="none";
-    element2.height="50px";
-}
-var y1 = window.scrollY;
-var positionY=y1;
-
-function scrollit(time) {
-
-    var y2 = testscroll.offsetTop;
-
-    var speed = (y2 - y1) / time;
-     positionY = positionY + speed;
-    window.scrollTo(0,positionY);
-    if(positionY<y2){
-    	var interfunction="scrollit("+time+")";
-    	window.setTimeout(interfunction,1);
-	}
-}
-
-function scrolltoit(positionY,speed){
-        positionY=positionY+speed;
-        window.scrollTo(0, positionY);
-        console.log("count");
+    element2.display="none";
 }

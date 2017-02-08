@@ -6,5 +6,6 @@ if(is_dir($stunum)==true){
 }
 else{
     header("Location: ../index.html");
+
 }
  ?>
