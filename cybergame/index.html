@@ -61,6 +61,24 @@
 			当 A 组还剩下 6 只队伍，B 组还剩下 2 只队伍时，进入复赛。复赛中采用三局两胜 （BO3），胜利队伍晋级，失败队伍淘汰。最后选出冠亚季军队伍。 </p>
 	</div>
 </div>
+<div class="detailbox" id="owtime">
+	<div class="phoneheader">
+		<img src="images/clear.png" class="imgstyle" alt="" onclick='hidedetailbox("owtime")'>
+		<h2 class="phonetitle1">守望先锋时间表</h2>
+	</div>
+	<div class="introboxcontent">
+		<div class="timetable redbg">
+			<h2>3月4日<span>星期六</span></h2>
+             <h1>网吧</h1>
+			<p>13:00-15:00</p>
+		</div>
+		<div class="timetable normalbg">
+			<h2>3月5日<span>星期日</span></h2>
+			<h1>网吧</h1>
+			<p>13:00-15:00</p>
+		</div>
+	</div>
+</div>
 <div class="detailbox" id="crcontent">
 	<div class="phoneheader">
 		<img src="images/clear.png" class="imgstyle" alt="" onclick='hidedetailbox("crcontent")'>
@@ -93,8 +111,7 @@
 <table cellspacing="0">
 	<tr style="height: 50px">
 		<th><a href="#blank">主页</a></th>
-		<th><a href="#introduction">赛制介绍</a></th>
-		<th><a href="">比赛日程</a></th>
+		<th><a href="#introduction">赛制介绍与比赛日程</a></th>
 		
 	</tr>
 </table>
@@ -115,12 +132,11 @@
 <table cellpadding="18px">
 <tr><th><b>Menu</b></th></tr>
 	<tr><td><a href="#blank" onclick="hidephonebar()"><b>主页</b></a></td></tr>
-	
 	<tr><td><a href="" onclick="hidephonebar()"><b>英雄联盟</b></a></td></tr>
 	<tr><td><a href="#owintro" onclick="hidephonebar()"><b>守望先锋</b></a></td></tr>
-	<tr><td><a href="" onclick="hidephonebar()"><b>炉石传说</b></a></td></tr>
 	<tr><td><a href="#kingintro" onclick="hidephonebar()"><b>王者荣耀</b></a></td></tr>
 	<tr><td><a href="#crintro" onclick="hidephonebar()"><b>皇室战争</b></a></td></tr>
+	<tr><td><a href="" onclick="hidephonebar()"><b>炉石传说</b></a></td></tr>
 	<tr><td><a href="" onclick="hidephonebar()"><b>欢乐斗地主</b></a></td></tr>
 	<tr><th id="phonebarth"><a href="http://uiccst.com/form"><b>Register Now</b></a></th></tr>
 
@@ -146,78 +162,49 @@
 </div>
 
 <!--add things from here-->
-<div class="maingame" id="introduction">
-	<h1>赛制介绍</h1>
-  <div class="introbox shadow flowleft clearfix"  id="owintro" onclick='showdetailbox("owcontent")'>
+<div class="maingame clearfix" id="introduction">
+	<div class="gamecontainer  flowleft">
+  <div class="introbox shadow"  id="owintro" onclick='showdetailbox("owcontent")'>
 	  <img src="images/ow.png" width="100%" alt="">
 	  <h2>守望先锋</h2>
 <p class="left">《守望先锋》是一款由暴雪娱乐开发并发行的多人第一人称射击游戏。<br>
 	《守望先锋》把玩家分为两支队伍，每队6人。玩家可从几个预定英雄人物中选择，每个英雄有自己独特属性和技能；这些英雄分为四类：突击型、防御型、重装型和支援型。队员合力保护并捍卫地图上的控制点，或在有限时间内护送载具到达指定地点。玩家获得的诸如人物皮肤和胜利姿势等装扮不会影响游戏。</p>
 	  <p class="spanleft"><b>查看全文</b></p>
   </div>
-	<div class="introbox shadow flowright clearfix"  id="kingintro" onclick='showdetailbox("kingcontent")'>
+	<button class="mainbutton1 bluebutton" onclick="showdetailbox('owtime')">
+		查看比赛时间和地点
+	</button>
+	</div>
+	<div class="gamecontainer flowright">
+	<div class="introbox shadow"  id="kingintro" onclick='showdetailbox("kingcontent")'>
 		<img src="images/king.jpg" width="100%" alt="">
 		<h2>王者荣耀</h2>
 		<p class="left">《王者荣耀》是由腾讯游戏开发并运行的一款运营在Android、IOS平台上的MOBA类手游，于2015年11月26日在Android、IOS平台上正式公测，游戏前期使用名称有《英雄战迹》、《王者联盟》。
 			<br>王者荣耀是类dota手游，游戏中的玩法以竞技对战为主，玩家之间进行1V1、3V3、5V5等多种方式的PVP对战，还可以参加游戏的冒险模式，进行PVE的闯关模式，在满足条件后可以参加游戏的年度排位赛等。</p>
 		<p class="spanleft"><b>查看全文</b></p>
 	</div>
-	<div class="introbox shadow flowleft clearfix"  id="crintro" onclick='showdetailbox("crcontent")'>
+		<button class="mainbutton1 bluebutton">
+			查看比赛时间和地点
+		</button>
+	</div>
+	<div class="gamecontainer flowleft">
+	<div class="introbox shadow"  id="crintro" onclick='showdetailbox("crcontent")'>
 		<img src="images/clashroyale.png" width="100%" alt="">
 		<h2>皇室战争</h2>
 		<p class="left">《部落冲突：皇室战争》（Clash Royale）是由芬兰游戏公司Supercell所推出的，以《部落冲突》的角色和世界观为原型，加入即时策略、MOBA以及卡牌等元素的手机游戏，于2016年1月4日在App Store发布。
 			在游戏中，玩家需通过不断的开启宝箱来获取卡片的方式来增强自己的战斗力，进而与其他在线的玩家进行匹配战斗。随着奖杯提升，开启不同场地的竞技场。</p>
 		<p class="spanleft"><b>查看全文</b></p>
 	</div>
+		<button class="mainbutton1 bluebutton">
+			查看比赛时间和地点
+		</button>
 </div>
 <!--blank-->
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br><br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+</div>
+<div id="footer">
+	©2016-2017 UIC-PANICS \ All Rights Reserved.
+</div>
+
 
 </body>
 <script>

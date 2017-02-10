@@ -2,7 +2,6 @@ body{
 	margin: 0;
 	padding:0;
     font-family:"product sans","Helvetica Neue",Arial,Sans-Serif;
-    overflow-x: hidden;
 }
 @font-face {
     font-family: 'product_sansregular';
@@ -15,6 +14,7 @@ body{
     font-style: normal;
 
 }
+::-webkit-scrollbar{ width:0;}
 .photos{
 	margin: 0;
 	padding:0;
@@ -369,6 +369,7 @@ th a:visited{
 .maingame{
 	width:100%;
     text-align: center;
+	margin-bottom: 50px;
 }
 
 .introboxcontent{
@@ -383,9 +384,10 @@ th a:visited{
 	padding-top: 30px;
 	padding-bottom: 30px;
 	margin-top: 20px;
-	width:90%;
+	width:100%;
 	background-color: #fff;
 	transition: 0.3s;
+	border-radius: 20px;
 }
 
 .detailbox{
@@ -416,14 +418,9 @@ th a:visited{
 	height: 100%;
 }
 
-.imgstyle1{
-	width: 80%;
-	margin-left: 10%;
-}
-
 @media (min-width: 1024px) {
 	.introbox{
-		width: 31%;
+		width: 90%;
 		margin-top: 40px;
 		margin-bottom: 40px;
 	}
@@ -433,27 +430,31 @@ th a:visited{
 }
 
 .flowleft{
-	margin-left: 0;
+	margin-left: 2%;
 }
 .flowright{
-	margin-left: 0;
+	margin-left: 2%;
 }
 @media (min-width: 1024px){
 	.flowleft{
-		float: left;
 		margin-left: 6%;
+		float: left;
 	}
 }
 @media (min-width: 1024px){
 	.flowright{
 		float: right;
+		margin-left: 0;
 		margin-right: 6%;
 	}
 }
 
-.introbox:hover{
-	box-shadow: 0px 5px 20px #999;
+@media (min-width: 1024px) {
+	.introbox:hover{
+		box-shadow: 0px 5px 20px #999;
+	}
 }
+
 
 .left{
 	text-align: left;
@@ -474,4 +475,86 @@ th a:visited{
 
 .clearfix{
 	overflow: hidden;
+}
+
+.mainbutton1{
+	border-radius: 10px;
+	text-align: center;
+	margin-left: 10%;
+	width: 80%;
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: "Microsoft YaHei";
+}
+
+@media(min-width: 1024px){
+	.mainbutton1{
+		width: 50%;
+		margin-left: 0;
+	}
+}
+
+.bluebutton{
+	border: 1px solid #0686c1;
+	color: white;
+	background-color: #0686c1;
+	transition: 0.2s;
+}
+@media (min-width: 1024px) {
+	.bluebutton{
+		color: #0686c1;
+		background-color: white;
+	}
+}
+@media (min-width: 1024px) {
+	.bluebutton:hover{
+		color: white;
+		background-color: #0686c1;
+	}
+}
+.gamecontainer{
+	width: 41%;
+}
+
+@media (max-width: 1023px) {
+	.gamecontainer{
+		width: 86%;
+	}
+}
+
+#footer{
+	width: 100%;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.timetable{
+	border-radius: 5px;
+	width: 90%;
+	padding:5%;
+	margin-top: 10px;
+}
+
+.redbg{
+	background-color: lightcoral;
+}
+
+.normalbg{
+	background-color: aqua;
+}
+
+.show{
+	display: block;
+}
+span{
+	font-size: 15px;
+}
+
+.timetable h1{
+	text-align: center;
+}
+
+.timetable p{
+	text-align: center;
 }
