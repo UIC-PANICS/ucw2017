@@ -8,8 +8,9 @@
 	<link rel="stylesheet" href="css/style.css">
 <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
 <script src="js/unslider.min.js"></script>
-<script src="js/phonebar.js"></script>
+<script src="js/dynamic.js"></script>
 <script src="js/device.js"></script>
+	<script src="js/jquery.scrollTo.js"></script>
 </head>
 <!--body start-->
 <body>
@@ -276,8 +277,8 @@
 <div id="bar2">
 <table cellspacing="0">
 	<tr style="height: 50px">
-		<th><a href="#blank">主页</a></th>
-		<th><a href="#introduction">赛制介绍与比赛日程</a></th>
+		<th onclick="$.scrollTo('#blank',1000)">主页</th>
+		<th onclick="$.scrollTo('#introduction',1000)">赛制介绍与比赛日程</th>
 		
 	</tr>
 </table>
@@ -297,13 +298,13 @@
 <div id="phonebar">
 <table cellpadding="18px">
 <tr><th><b>Menu</b></th></tr>
-	<tr><td><a href="#blank" onclick="hidephonebar()"><b>主页</b></a></td></tr>
-	<tr><td><a href="#lolintro" onclick="hidephonebar()"><b>英雄联盟</b></a></td></tr>
-	<tr><td><a href="#ow" onclick="hidephonebar()"><b>守望先锋</b></a></td></tr>
-	<tr><td><a href="#king" onclick="hidephonebar()"><b>王者荣耀</b></a></td></tr>
-	<tr><td><a href="#cr" onclick="hidephonebar()"><b>皇室战争</b></a></td></tr>
-	<tr><td><a href="#hearth" onclick="hidephonebar()"><b>炉石传说</b></a></td></tr>
-	<tr><td><a href="#dizhu" onclick="hidephonebar()"><b>欢乐斗地主</b></a></td></tr>
+	<tr><td onclick="hidephonebar();$.scrollTo('#blank',1000)"><b>主页</b></td></tr>
+	<tr><td onclick="hidephonebar();$.scrollTo('#introduction',1000)"><b>英雄联盟</b></td></tr>
+	<tr><td onclick="hidephonebar();$.scrollTo('#ow',1000)"><b>守望先锋</b></td></tr>
+	<tr><td onclick="hidephonebar();$.scrollTo('#king',1000)"><b>王者荣耀</b></td></tr>
+	<tr><td onclick="hidephonebar();$.scrollTo('#cr',1000)"><b>皇室战争</b></td></tr>
+	<tr><td onclick="hidephonebar();$.scrollTo('#hearth',1000)"><b>炉石传说</b></td></tr>
+	<tr><td onclick="hidephonebar();$.scrollTo('#dizhu',1000)"><b>欢乐斗地主</b></td></tr>
 	<tr><th id="phonebarth"><a href="http://uiccst.com/form"><b>Register Now</b></a></th></tr>
 
 </table>
