@@ -369,16 +369,15 @@ th a:visited{
 .maingame{
 	width:100%;
     text-align: center;
-	margin-bottom: 50px;
 }
 
-.introboxcontent{
+.introboxcontent{/*actually is detailbox content*/
 	width: 80%;
 	margin-left: 10%;
 	padding-top: 60px;
 	padding-bottom: 30px;
 }
-.introbox{
+.introbox{/*the box which look like ios 10 style*/
 	padding-left: 5%;
 	padding-right: 5%;
 	padding-top: 30px;
@@ -390,7 +389,7 @@ th a:visited{
 	border-radius: 20px;
 }
 
-.detailbox{
+.detailbox{/*box with black background*/
 	position: fixed;
 	height: 100%;
 	width: 100%;
@@ -412,7 +411,7 @@ th a:visited{
 	}
 }
 
-.imgstyle{
+.imgstyle{/*style of cross in detailbox*/
 	position: absolute;
 	z-index:2;
 	height: 100%;
@@ -423,6 +422,7 @@ th a:visited{
 		width: 90%;
 		margin-top: 40px;
 		margin-bottom: 40px;
+		border-radius: 0;
 	}
 }
 .shadow{
@@ -456,12 +456,12 @@ th a:visited{
 }
 
 
-.left{
+.left{/*use in intro box*/
 	text-align: left;
 	font-family: "Microsoft YaHei";
 }
 
-.spanleft{
+.spanleft{/*use in intro box*/
 	text-align: left;
 	font-family: "Microsoft YaHei";
 	font-size: 14px;
@@ -477,7 +477,7 @@ th a:visited{
 	overflow: hidden;
 }
 
-.mainbutton1{
+.mainbutton1{/*frame of buttons*/
 	border-radius: 10px;
 	text-align: center;
 	margin-left: 10%;
@@ -495,10 +495,16 @@ th a:visited{
 	}
 }
 
-.bluebutton{
+.bluebutton{/*style of timetable buttons*/
 	border: 1px solid #0686c1;
 	color: white;
 	background-color: #0686c1;
+	transition: 0.2s;
+}
+.orangebutton{/*go to upload page button*/
+	border: 1px solid orangered;
+	color: white;
+	background-color: orangered;
 	transition: 0.2s;
 }
 @media (min-width: 1024px) {
@@ -508,12 +514,24 @@ th a:visited{
 	}
 }
 @media (min-width: 1024px) {
+	.orangebutton{
+		color: orangered;
+		background-color: white;
+	}
+}
+@media (min-width: 1024px) {
 	.bluebutton:hover{
 		color: white;
 		background-color: #0686c1;
 	}
 }
-.gamecontainer{
+@media (min-width: 1024px) {
+	.orangebutton:hover{
+		color: white;
+		background-color: orangered;
+	}
+}
+.gamecontainer{/*container of game intro and timetable button*/
 	width: 41%;
 }
 
@@ -527,27 +545,30 @@ th a:visited{
 	width: 100%;
 	text-align: center;
 	padding-bottom: 30px;
+	margin-top: 50px;
 }
 
-.timetable{
+.timetable{/*timetable content*/
 	border-radius: 5px;
 	width: 90%;
 	padding:5%;
 	margin-top: 10px;
 }
 
-.redbg{
+.redbg{/*background in timetable when the date is one day or less than one day*/
 	background-color: lightcoral;
 }
 
-.normalbg{
+.normalbg{/*background in timetable when the date is more than one day*/
 	background-color: aqua;
 }
-
+.greybg{/*background in timetable when after the game*/
+	background-color: #999999;
+}
 .show{
 	display: block;
 }
-span{
+span{/*use in timetable*/
 	font-size: 15px;
 }
 

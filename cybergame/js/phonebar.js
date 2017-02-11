@@ -29,3 +29,7 @@ function hidedetailbox(boxname) {
     element2.display="none";
     document.body.style.overflow="auto";
 }
+
+function openpage(link) {
+    window.open(link);
+}
