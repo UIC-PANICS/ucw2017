@@ -396,28 +396,29 @@ font-face
 }
 
 
-
 .text-container{
     z-index: 2;
 }
 .text-container .text{
-    border-radius: 0%;
-    float: left;
     position: absolute;
     margin-left: 13%;
-    top: -12vw;;
-    left: 0%;
+    top: -180px;
 }
 .text-container .text img{
     width: 100%;
 }
+@media(max-width: 605px){
+    .text-container .text{
+        top: -270px;
+    }
+}
 
 .words{
-    font-size: 3vw;
+    font-size: 50px;
     color: rgba(238,238,238,0.8);
     font-family:"Source Han Sans CN","Pingfang","MicrosoftJhengHei",STHeiti,MingLiu;
     font-family:"product_sansregular","Helvetica Neue",Arial,Sans-Serif;
-    line-height: 3.5vw;
+    line-height: 50px;
 }
 
 .footer {
