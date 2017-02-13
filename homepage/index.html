@@ -3,19 +3,17 @@
 <head>
     <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
     <link rel="icon" type="image/png" href="assets/img/favicon.ico">
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="viewport" content="width=device-width" />
     <title>计算机人要改变世界丨UICcst</title>
     <link href="bootstrap3/css/bootstrap.css" rel="stylesheet" />
-	<link href="assets/css/gsdk.css" rel="stylesheet" />  
+    <link href="assets/css/gsdk.css" rel="stylesheet" />  
     <link href="assets/css/demo.css" rel="stylesheet" /> 
     <link rel="stylesheet" href="fonts/specimen_files/specimen_stylesheet.css" type="text/css" charset="utf-8" />
     <link rel="stylesheet" href="fonts/stylesheet.css" type="text/css" charset="utf-8" />
-    <!--     Font Awesome     -->
-<!--<link href="bootstrap3/css/font-awesome.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'> -->
+    <link rel="stylesheet" href="assets/css/colorbox.css" />
 </head>
 <body>
 <div id="navbar-full">
@@ -71,7 +69,7 @@
 <div class="text-container">
 <div class="text">
 <p class="words">UICcst<br>
-Computer Science &<br>
+Computer Science &amp;<br>
 Technology Homepage_
 </p>
 </div>
@@ -82,7 +80,7 @@ Technology Homepage_
             <div class="row">
                 <div class="col-md-7 col-md-offset-0 col-sm-10 col-sm-offset-1">
                     <div class="text-center">
-                        <img src="assets/img/img.jpg" alt="Rounded Image" class="img-rounded img-responsive img-dog">
+                        <a class="picture" href="assets/img/img.jpg" title="UICcst 2017"><img src="assets/img/img.jpg" alt="Rounded Image" class="img-rounded img-responsive img-dog"></a>
                         <p>Lorem ipsum</p>
                     </div>
                 </div>
@@ -119,6 +117,10 @@ Technology Homepage_
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="fonts/specimen_files/easytabs.js" type="text/javascript" charset="utf-8"></script>
 
+<!-- Light Box Script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="assets/js/jquery.colorbox.js"></script>
+
 <script type="text/javascript">
          
     $('.btn-tooltip').tooltip();
@@ -149,7 +151,9 @@ Technology Homepage_
 	$('.carousel').carousel({
       interval: 4000
     });
-      
     
+    $(document).ready(function(){
+        $("a.picture").colorbox({transition:"fade"});
+    });
 </script>
 </html>
