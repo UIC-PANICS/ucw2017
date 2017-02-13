@@ -405,7 +405,7 @@ font-face
     float: left;
     position: absolute;
     margin-left: 13%;
-    top: -40%;
+    top: -12vw;;
     left: 0%;
 }
 .text-container .text img{
@@ -413,11 +413,11 @@ font-face
 }
 
 .words{
-    font-size: 3em;
+    font-size: 3vw;
     color: rgba(238,238,238,0.8);
     font-family:"Source Han Sans CN","Pingfang","MicrosoftJhengHei",STHeiti,MingLiu;
     font-family:"product_sansregular","Helvetica Neue",Arial,Sans-Serif;
-    line-height: 52px;
+    line-height: 3.5vw;
 }
 
 .footer {
