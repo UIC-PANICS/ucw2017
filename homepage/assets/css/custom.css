@@ -14,6 +14,7 @@
 .black-navbar{
     background-color: #000000 !important;
 }
+
 .zurb-footer-bottom {
     background: #2c3840;
     padding: 24px 0 10px;
@@ -59,9 +60,9 @@
     font-family:"product_sansregular", "Source Han Sans CN", "Helvetica Neue",Arial,Sans-Serif;
     line-height: 50px;
 }
-.awords {
+.awords{
     font-size: 18px;
     color: rgba(188, 188, 188, 0.8);
-    font-family: "product_sansregular", "Source Han Sans CN", "Helvetica Neue", Arial, Sans-Serif;
+    font-family:"product_sansregular", "Source Han Sans CN", "Helvetica Neue",Arial,Sans-Serif;
     line-height: 50px;
 }
