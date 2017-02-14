@@ -14,3 +14,5 @@
 .black-navbar{
     background-color: #000000 !important;
 }
+
+::-webkit-scrollbar{width: 0}

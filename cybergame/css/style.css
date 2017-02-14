@@ -263,7 +263,7 @@ th a:visited{
 	width: 200px;
 	z-index: 300;
 	height: 100%;
-	transition: 0.3s ease-out;
+	transition: 0.2s ease-out;
 	left: -200px;
 	overflow: auto;
 }
