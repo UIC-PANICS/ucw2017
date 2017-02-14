@@ -403,13 +403,13 @@ th a:visited{
 	margin: auto;
 	display: none;
 	transition: 0.2s;
+	transform: translate3d(0,0,0);
 }
 
 @media (min-width: 1024px) {
 	.detailbox{
 		width:768px;
 		height:600px;
-		top: 1000px;
 	}
 }
 
@@ -421,16 +421,8 @@ th a:visited{
 }
 .imgstyle:hover{
 	transform:rotate(90deg);
-	-ms-transform:rotate(90deg); /* Internet Explorer */
-	-moz-transform:rotate(90deg); /* Firefox */
-	-webkit-transform:rotate(90deg);
 }
-.trans{
-	transform:rotate(180deg);
-	-ms-transform:rotate(180deg); /* Internet Explorer */
-	-moz-transform:rotate(180deg); /* Firefox */
-	-webkit-transform:rotate(180deg);
-}
+
 @media (min-width: 1024px) {
 	.introbox{
 		width: 90%;
