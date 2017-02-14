@@ -56,7 +56,13 @@
 
 .words{
     font-size: 35px;
-    color: rgba(238,238,238,0.8);
+    color: rgb(238, 238, 238);
+    font-family:"product_sansregular", "Source Han Sans CN", "Helvetica Neue",Arial,Sans-Serif;
+    line-height: 50px;
+}
+.awords{
+    font-size: 18px;
+    color: rgba(188, 188, 188, 0.8);
     font-family:"product_sansregular", "Source Han Sans CN", "Helvetica Neue",Arial,Sans-Serif;
     line-height: 50px;
 }
