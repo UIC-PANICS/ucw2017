@@ -50,6 +50,13 @@
     float: right;
     margin-bottom: 8px;
 }
-.copyright{
+.white{
     color:#f7f7f7;
+}
+
+.words{
+    font-size: 35px;
+    color: rgba(238,238,238,0.8);
+    font-family:"product_sansregular", "Source Han Sans CN", "Helvetica Neue",Arial,Sans-Serif;
+    line-height: 50px;
 }
