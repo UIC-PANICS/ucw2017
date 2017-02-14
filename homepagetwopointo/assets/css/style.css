@@ -22,6 +22,9 @@ a:visited{
     max-height: 100%;
     margin-bottom: 20px;
     padding-top: 20px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
 }
 .logo-container{
     float: left;
