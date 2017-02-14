@@ -14,3 +14,42 @@
 .black-navbar{
     background-color: #000000 !important;
 }
+
+.zurb-footer-bottom {
+    background: #2c3840;
+    padding: 24px 0 10px;
+}
+
+.zurb-footer-bottom .zurb-links {
+    display: inline-block;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+.zurb-footer-bottom .zurb-logo {
+    background: url(../img/logo.png) no-repeat 0 3px;
+    color: #858585;
+    display: inline-block;
+    font-size: em-calc(16px);
+    font-weight: normal;
+    padding: 23px 0 0 !important;
+    width: 90px;
+}
+
+.zurb-footer-bottom .zurb-links li {
+    display: block;
+    float: left;
+    font-size: 0.75rem;
+    font-weight: 700;
+    margin-left: 6px;
+    text-transform: uppercase;
+}
+
+.zurb-footer-bottom .home-social {
+    display: block;
+    float: right;
+    margin-bottom: 8px;
+}
+.copyright{
+    color:#f7f7f7;
+}
