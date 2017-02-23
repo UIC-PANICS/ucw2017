@@ -376,6 +376,23 @@ th a:visited{
 	margin-left: 10%;
 	padding-top: 60px;
 	padding-bottom: 30px;
+	overflow: scroll;
+	height: 500px;
+}
+@media(max-width: 1023px){
+	.introboxcontent{
+		height: 970px;
+	}
+}
+@media(max-width: 767px){
+	.introboxcontent{
+		height: 640px;
+	}
+}
+@media(max-width: 400px){
+	.introboxcontent{
+		height: 570px;
+	}
 }
 .introbox{/*the box which look like ios 10 style*/
 	padding-left: 5%;
