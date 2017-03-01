@@ -24,7 +24,7 @@
  		blank.display="block";
  	}
  	else{
- 		style.color="#0686c1";
+ 		style.color="green";
  		content.innerHTML="√ 学号正确";
  		blank.display="none";
  	}
