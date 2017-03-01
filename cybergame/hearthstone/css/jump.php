@@ -1,7 +1,8 @@
 <?php 
 $stunum=$_POST["number"];
 $url="../".$stunum."/index.html";
-if(is_dir("../".$stunum)==true){
+$judge=file_exists($url);
+if(is_dir("../".$stunum)==true&&$judge==true){
     header("Location: $url");
 }
 else{

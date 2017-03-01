@@ -151,7 +151,12 @@ body{
     margin-left: 10%;
     padding-top: 60px;
 }
-
+@media(min-width: 1024px){
+    .imgframe{
+        width: 60%;
+        margin-left: 20%;
+    }
+}
 #displaynone{
     display: none;
 }
@@ -162,7 +167,7 @@ span{
 
 #textchange{
     text-align: left;
-    font-size: 5px;
+    font-size: 10px;
     color: red;
     margin: 5px;
     font-family: "Microsoft YaHei";

@@ -6,7 +6,7 @@
 	<meta name="theme-color" content="rgb(49,60,85)">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
-	<script src="../js/dynamic.js"></script>
+	<script src="css/dynamic.js"></script>
 	<script type="text/javascript">
 	function changetext(){
  	var num=document.getElementById("displaynone").innerHTML;
@@ -34,7 +34,7 @@
 <body>
 <div id="phoneheader">
 <div id="menubutton">
-<img src="../images/menu.png" height="100%" onclick="phonebar()">
+<img src="css/menu.png" height="100%" onclick="phonebar()">
 </div>
 <h3 id="phonetitle">炉石卡组上传</h3>
 <ul>
