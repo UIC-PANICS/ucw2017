@@ -10,6 +10,7 @@ $txt1='<!DOCTYPE html>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 		<meta name="theme-color" content="rgb(49,60,85)">
 	<meta charset="utf-8">
+	<title>炉石卡组查看</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
 	<script src="../css/dynamic.js"></script>
 </head>
