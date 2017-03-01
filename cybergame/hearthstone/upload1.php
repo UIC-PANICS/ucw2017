@@ -6,7 +6,6 @@ $myfile=fopen($path1,"w");
 $txt1='<!DOCTYPE html>
 <html>
 <head>
-	<title></title>
 	<link rel="stylesheet" type="text/css" href="../css/style.css">
 		<meta name="theme-color" content="rgb(49,60,85)">
 	<meta charset="utf-8">
