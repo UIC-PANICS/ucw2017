@@ -379,6 +379,10 @@ th a:visited{
 	overflow: scroll;
 	height: 500px;
 }
+.framecontent{
+	width: 100%;
+	padding-top: 60px;
+}
 @media(max-width: 1023px){
 	.introboxcontent{
 		height: 970px;
