@@ -16,7 +16,6 @@ while($row = mysql_fetch_array($retval, MYSQL_ASSOC))
 }
 function selectsections($sectionname,$infos){
     for($i=0;$i<count($infos);$i++){
-        echo $infos[$i][4];
         if($infos[$i][4]==$sectionname){
             echo "<div class=\"timetable normalbg\">
             <h2>".$infos[$i][0]." <span>".$infos[$i][1]."</span></h2>
