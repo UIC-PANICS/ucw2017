@@ -20,7 +20,7 @@ else{
 	<meta charset="utf8">
 	<script type="text/javascript">
 		var message=confirm("您已上传过卡组，确定重新上传？");
-		if (message==true) {
+		if (message) {
 			window.location.href="upload.php";
 		}
 		else{

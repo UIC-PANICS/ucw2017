@@ -12,7 +12,9 @@ $retval=mysql_query($getdata);
 $info=array();
 while($row = mysql_fetch_array($retval, MYSQL_ASSOC))
 {
-    array_push($info,array($row["date"],$row["day"],$row["time"],$row["place"],$row["section"]));
+    if($row["judge"]==0) {
+        array_push($info, array($row["date"], $row["day"], $row["time"], $row["place"], $row["section"]));
+    }
 }
 function selectsections($sectionname,$infos){
     for($i=0;$i<count($infos);$i++){

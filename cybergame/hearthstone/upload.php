@@ -38,7 +38,7 @@
 </div>
 <h3 id="phonetitle">炉石卡组上传</h3>
 <ul>
-	<a href="../index.html"><li>主页</li></a>
+	<a href="../index.php"><li>主页</li></a>
 	<a href="index.html"><li>查看卡组</li></a>
 </ul>
 </div>
@@ -47,7 +47,7 @@
 <div id="phonebar">
 <table cellpadding="18px">
 <tr><th><b>Menu</b></th></tr>
-	<tr><td><a href="../index.html"><b>主页</b></a></td></tr>
+	<tr><td><a href="../index.php"><b>主页</b></a></td></tr>
 	<tr><th id="phonebarth"><a href="index.html"><b>查看已上传卡组</b></a></th></tr>
 
 </table>
