@@ -14,13 +14,14 @@ while($row = mysql_fetch_array($retval, MYSQL_ASSOC))
 {
     array_push($info,array($row["date"],$row["day"],$row["time"],$row["place"],$row["section"]));
 }
-function selectsections($sectionname){
-    for($i=0;$i<count($info);$i++){
-        if($info[$i][4]==$sectionname){
+function selectsections($sectionname,$infos){
+    for($i=0;$i<count($infos);$i++){
+        echo $infos[$i][4];
+        if($infos[$i][4]==$sectionname){
             echo "<div class=\"timetable normalbg\">
-            <h2>".$info[$i][0]." <span>".$info[$i][1]."</span></h2>
-            <h1>".$info[$i][3]."</h1>
-            <p>".$info[$i][2]."</p>
+            <h2>".$infos[$i][0]." <span>".$infos[$i][1]."</span></h2>
+            <h1>".$infos[$i][3]."</h1>
+            <p>".$infos[$i][2]."</p>
         </div>";
         }
     }
@@ -94,7 +95,7 @@ function selectsections($sectionname){
     </div>
     <div class="introboxcontent">
         <?php
-        selectsections("lol");
+        selectsections("lol",$info);
         ?>
     </div>
 </div>
@@ -139,7 +140,7 @@ function selectsections($sectionname){
     </div>
     <div class="introboxcontent">
         <?php
-        selectsections("ow");
+        selectsections("ow",$info);
         ?>
     </div>
 </div>
@@ -153,10 +154,9 @@ function selectsections($sectionname){
     </div>
     <div class="introboxcontent">
         <?php
-        selectsections("king");
+        selectsections("king",$info);
         ?>
         </div>
-    </div>
 </div>
 <!--king part end-->
 <!--hearthstone part start-->
@@ -185,7 +185,7 @@ function selectsections($sectionname){
     </div>
     <div class="introboxcontent">
         <?php
-        selectsections("hearthstone");
+        selectsections("hearthstone",$info);
         ?>
     </div>
 </div>
@@ -216,7 +216,7 @@ function selectsections($sectionname){
     </div>
     <div class="introboxcontent">
         <?php
-        selectsections("cr");
+        selectsections("cr",$info);
         ?>
     </div>
 </div>
@@ -230,7 +230,7 @@ function selectsections($sectionname){
     </div>
     <div class="introboxcontent">
         <?php
-        selectsections("dizhu");
+        selectsections("dizhu",$info);
         ?>
     </div>
 </div>
