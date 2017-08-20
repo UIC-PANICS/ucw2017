@@ -4,3 +4,4 @@ test/*
 cybergame/hearthstone/confirm.txt
 /.idea/*
 /cybergame/.idea/*
+.DS_Store
