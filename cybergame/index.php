@@ -294,12 +294,12 @@ function selectsections($sectionname,$infos){
 <!--main content begin-->
 <div class="banner" id="b04">
     <ul>
-        <li><img src="https://ols1alctg.qnssl.com/17-2-23/43336671-file_1487811769529_79cb.jpg" alt="" width="100%" height="auto" ></li>
-        <li><img src="https://ols1alctg.qnssl.com/17-2-23/87226452-file_1487811769665_799b.jpg" alt="" width="100%" height="auto" ></li>
-        <li><img src="https://ols1alctg.qnssl.com/17-2-23/80868023-file_1487811769243_b4bf.jpg" alt="" width="100%" height="auto" ></li>
-        <li><img src="https://ols1alctg.qnssl.com/17-2-23/8142067-file_1487811769366_ab58.jpg" alt="" width="100%" height="auto" ></li>
-        <li><img src="https://ols1alctg.qnssl.com/17-2-23/1803809-file_1487811768949_c074.png" alt="" width="100%" height="auto" ></li>
-        <li><img src="https://ols1alctg.qnssl.com/17-2-23/24230485-file_1487811769128_a905.jpg" alt="" width="100%" height="auto" ></li>
+        <li><img src="https://cdn.drjchn.com/17-2-23/43336671-file_1487811769529_79cb.jpg" alt="" width="100%" height="auto" ></li>
+        <li><img src="https://cdn.drjchn.com/17-2-23/87226452-file_1487811769665_799b.jpg" alt="" width="100%" height="auto" ></li>
+        <li><img src="https://cdn.drjchn.com/17-2-23/80868023-file_1487811769243_b4bf.jpg" alt="" width="100%" height="auto" ></li>
+        <li><img src="https://cdn.drjchn.com/17-2-23/8142067-file_1487811769366_ab58.jpg" alt="" width="100%" height="auto" ></li>
+        <li><img src="https://cdn.drjchn.com/17-2-23/1803809-file_1487811768949_c074.png" alt="" width="100%" height="auto" ></li>
+        <li><img src="https://cdn.drjchn.com/17-2-23/24230485-file_1487811769128_a905.jpg" alt="" width="100%" height="auto" ></li>
     </ul>
     <a href="javascript:void(0);" class="unslider-arrow04 prev"><img class="arrow" id="al" src="images/arrowl.png" alt="prev" width="20" height="35"></a>
     <a href="javascript:void(0);" class="unslider-arrow04 next"><img class="arrow" id="ar" src="images/arrowr.png" alt="next" width="20" height="37"></a>
@@ -310,7 +310,7 @@ function selectsections($sectionname,$infos){
     <!--lol intro-->
     <div class="gamecontainer  flowleft">
         <div class="introbox shadow"  id="lolintro" onclick='showdetailbox("lolcontent")'>
-            <img src="https://ols1alctg.qnssl.com/17-2-23/43336671-file_1487811769529_79cb.jpg" width="100%" alt="">
+            <img src="https://cdn.drjchn.com/17-2-23/43336671-file_1487811769529_79cb.jpg" width="100%" alt="">
             <h2>英雄联盟</h2>
             <p class="left">《英雄联盟》(简称LOL)是由美国拳头游戏(Riot Games)开发、中国大陆地区腾讯游戏代理运营的英雄对战MOBA竞技网游。游戏里拥有数百个个性英雄，并拥有排位系统、天赋系统、符文系统等特色养成系统。《英雄联盟》还致力于推动全球电子竞技的发展，除了联动各赛区发展职业联赛、打造电竞体系之外，每年还会举办“季中冠军赛”“全球总决赛”“All Star全明星赛”三大世界级赛事，获得了亿万玩家的喜爱。</p>
             <p class="spanleft"><b>查看赛制</b></p>
@@ -322,7 +322,7 @@ function selectsections($sectionname,$infos){
     <!--ow intro-->
     <div class="gamecontainer  flowright">
         <div class="introbox shadow"  id="owintro" onclick='showdetailbox("owcontent")'>
-            <img src="https://ols1alctg.qnssl.com/17-2-23/87226452-file_1487811769665_799b.jpg" width="100%" alt="">
+            <img src="https://cdn.drjchn.com/17-2-23/87226452-file_1487811769665_799b.jpg" width="100%" alt="">
             <h2>守望先锋</h2>
             <p class="left">《守望先锋》是一款由暴雪娱乐开发并发行的多人第一人称射击游戏。<br>
                 《守望先锋》把玩家分为两支队伍，每队6人。玩家可从几个预定英雄人物中选择，每个英雄有自己独特属性和技能；这些英雄分为四类：突击型、防御型、重装型和支援型。队员合力保护并捍卫地图上的控制点，或在有限时间内护送载具到达指定地点。玩家获得的诸如人物皮肤和胜利姿势等装扮不会影响游戏。</p>
@@ -337,7 +337,7 @@ function selectsections($sectionname,$infos){
     <!--king intro-->
     <div class="gamecontainer flowleft">
         <div class="introbox shadow"  id="kingintro" onclick='window.location.href="documents/king.pdf"'>
-            <img src="https://ols1alctg.qnssl.com/17-2-23/8142067-file_1487811769366_ab58.jpg" width="100%" alt="">
+            <img src="https://cdn.drjchn.com/17-2-23/8142067-file_1487811769366_ab58.jpg" width="100%" alt="">
             <h2>王者荣耀</h2>
             <p class="left">《王者荣耀》是由腾讯游戏开发并运行的一款运营在Android、IOS平台上的MOBA类手游，于2015年11月26日在Android、IOS平台上正式公测，游戏前期使用名称有《英雄战迹》、《王者联盟》。
                 <br>王者荣耀是类dota手游，游戏中的玩法以竞技对战为主，玩家之间进行1V1、3V3、5V5等多种方式的PVP对战，还可以参加游戏的冒险模式，进行PVE的闯关模式，在满足条件后可以参加游戏的年度排位赛等。</p>
@@ -350,7 +350,7 @@ function selectsections($sectionname,$infos){
     <!--clash royale intro-->
     <div class="gamecontainer flowright">
         <div class="introbox shadow"  id="crintro" onclick='showdetailbox("crcontent")'>
-            <img src="https://ols1alctg.qnssl.com/17-2-23/1803809-file_1487811768949_c074.png" width="100%" alt="">
+            <img src="https://cdn.drjchn.com/17-2-23/1803809-file_1487811768949_c074.png" width="100%" alt="">
             <h2>皇室战争</h2>
             <p class="left">《部落冲突：皇室战争》（Clash Royale）是由芬兰游戏公司Supercell所推出的，以《部落冲突》的角色和世界观为原型，加入即时策略、MOBA以及卡牌等元素的手机游戏，于2016年1月4日在App Store发布。
                 在游戏中，玩家需通过不断的开启宝箱来获取卡片的方式来增强自己的战斗力，进而与其他在线的玩家进行匹配战斗。随着奖杯提升，开启不同场地的竞技场。</p>
@@ -365,7 +365,7 @@ function selectsections($sectionname,$infos){
     <!--hearthstone intro-->
     <div class="gamecontainer flowleft">
         <div class="introbox shadow"  id="hearthintro" onclick='showdetailbox("hearthcontent")'>
-            <img src="https://ols1alctg.qnssl.com/17-2-23/80868023-file_1487811769243_b4bf.jpg" width="100%" alt="">
+            <img src="https://cdn.drjchn.com/17-2-23/80868023-file_1487811769243_b4bf.jpg" width="100%" alt="">
             <h2>炉石传说</h2>
             <p class="left">《炉石传说：魔兽英雄传》是暴雪娱乐开发的一款集换式卡牌游戏。
                 《炉石传说：魔兽英雄传》是一款免费游戏，故事背景基于魔兽争霸系列的世界观，玩家可以另行购买卡牌包。</p>
@@ -381,7 +381,7 @@ function selectsections($sectionname,$infos){
     <!--dizhu intro-->
     <div class="gamecontainer flowright">
         <div class="introbox shadow"  id="dizhuintro" onclick='window.location.href="documents/dizhu.pdf"'>
-            <img src="https://ols1alctg.qnssl.com/17-2-23/24230485-file_1487811769128_a905.jpg" width="100%" alt="">
+            <img src="https://cdn.drjchn.com/17-2-23/24230485-file_1487811769128_a905.jpg" width="100%" alt="">
             <h2>斗地主</h2>
             <p class="left">斗地主是一种在中国流行的纸牌游戏。游戏由3个玩家进行，用一副54张牌（包括大小王），其中一方为地主，其余两家为另一方，双方对战，先出完牌的一方获胜。</p>
             <p class="spanleft"><b>查看赛制</b></p>
